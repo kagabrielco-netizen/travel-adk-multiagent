@@ -1,6 +1,7 @@
 ﻿from google.adk.agents import Agent
 
 from travel_assistant.agents.budget import budget_agent
+from travel_assistant.agents.culture import LocalCultureAgent
 from travel_assistant.agents.itinerary import itinerary_agent
 from travel_assistant.agents.risk import risk_reviewer_agent
 from travel_assistant.agents.web_search import web_search_agent
@@ -40,5 +41,6 @@ Rules:
         itinerary_agent,
         budget_agent,
         risk_reviewer_agent,
+        LocalCultureAgent,
     ],
 )
